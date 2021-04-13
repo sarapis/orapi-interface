@@ -81,6 +81,7 @@ class Model
 	{
 		//print_r($url);
 		$res = Curl::exec($url);
+		file_put_contents(__DIR__ . '/../dcmodel.req', print_r([$url, $res], 1));
 		//print_r($res);
 		$jj = json_decode($res, true);
 		return $jj;

@@ -1,0 +1,23 @@
+Array
+(
+    [0] => http://18.219.50.199/locations/333/physical-address
+    [1] => {
+    "total_items": 1,
+    "items": [
+        {
+            "id": "4724",
+            "location_id": "333",
+            "attention": "",
+            "address_1": "3917 Minnesota Ave NE",
+            "address_2": "",
+            "address_3": "",
+            "address_4": "",
+            "city": "Washington",
+            "region": "",
+            "state_province": "DC",
+            "postal_code": "20019",
+            "country": ""
+        }
+    ]
+}
+)
